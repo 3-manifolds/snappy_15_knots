@@ -1,0 +1,4 @@
+build
+dist
+snappy_15_knots.egg-info
+manifold_src/15_knots.sqlite
