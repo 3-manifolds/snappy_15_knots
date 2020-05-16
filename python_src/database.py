@@ -182,8 +182,8 @@ def get_DT_tables():
             length_query = 'select count(*) from ' + self._table
             return self._cursor.execute(length_query).fetchone()[0]
 
-    class ExtendedDTCodeTable(DTCodeTable):
-        def __init__(self, **kwargs):
-            DTCodeTable.__init__(self, table='HT_links_view',
-                                 db_path=database_path, **kwargs)
-    return [ExtendedDTCodeTable()]
+
+    HTLinkDTcodesExtended = DTCodeTable(name='HTLinkDTcodesExtended',
+                                        table='HT_links_view',
+                                        db_path=database_path)
+    return [HTLinkDTcodesExtended]
