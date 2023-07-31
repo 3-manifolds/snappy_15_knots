@@ -4,7 +4,7 @@ doctests are run by snappy.
 
 >>> HT = get_DT_tables()[0]
 >>> len(HT)
-433803
+433804
 >>> str(HT['L12n345'])
 'lbbjceGkjHILFadb.010001100011'
 >>> str(HT['K15a1'])
