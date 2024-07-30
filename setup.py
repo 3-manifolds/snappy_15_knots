@@ -1,5 +1,4 @@
-long_description ="""\ 
-This package provides a database of 15 crossing knots and 14 crossing
+long_description ="""This package provides a database of 15 crossing knots and 14 crossing
 links for use with the spherogram and snappy packages.
 """
 

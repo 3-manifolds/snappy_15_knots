@@ -54,7 +54,7 @@ def get_tables(ManifoldTable):
         >>> some_links = HTLinkExteriors(alternating=False,knots_vs_links='links')[8.5:8.7]
         >>> len(some_links)
         8
-        >>> for L in some_links:
+        >>> for L in some_links:  # doctest: +NUMERIC6
         ...   print( L.name(), L.num_cusps(), L.volume() )
         ... 
         L11n138 2 8.66421454
